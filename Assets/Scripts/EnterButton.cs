@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class EnterButton : MonoBehaviour {
+public class RestroomClickButton : MonoBehaviour {
 
 	void OnMouseDown()
 	{
