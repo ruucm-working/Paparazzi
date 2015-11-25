@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\CameraMove.cs" />
      <Compile Include="Assets\Scripts\CharacterJump.cs" />
      <Compile Include="Assets\Scripts\DeadZone.cs" />
+     <Compile Include="Assets\Scripts\EnterButton.cs" />
      <Compile Include="Assets\Scripts\InputState.cs" />
      <Compile Include="Assets\Scripts\MouseControl.cs" />
      <Compile Include="Assets\Scripts\MovingObject.cs" />
