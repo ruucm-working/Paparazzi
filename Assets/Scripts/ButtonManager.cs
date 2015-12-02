@@ -19,9 +19,9 @@ public class ButtonManager : MonoBehaviour {
 			enterBtn.SetActive (false);
 		if (coll.tag == "Friend")
 			friendBtn.SetActive (false);
-	}
+	}  
 
-	// Use this for initialization
+	// Use this for initialization 
 	void Start () {
 		
 
