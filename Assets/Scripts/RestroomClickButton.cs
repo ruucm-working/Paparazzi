@@ -6,6 +6,9 @@ public class RestroomClickButton : MonoBehaviour {
 	Animator anim;
 
 
+	public GameObject view_finder = null;
+
+
 	void Start()
 	{
 		anim = GameObject.Find ("run").GetComponent<Animator> ();
@@ -24,6 +27,11 @@ public class RestroomClickButton : MonoBehaviour {
 			
 			
 			anim.SetTrigger("shot");
+
+			view_finder.SetActive (true);
+
+
+
 		}
 	}
 
