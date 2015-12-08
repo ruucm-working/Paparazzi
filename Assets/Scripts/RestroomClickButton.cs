@@ -13,7 +13,7 @@ public class RestroomClickButton : MonoBehaviour {
 	{
 		anim = GameObject.Find ("run").GetComponent<Animator> ();
 
-		Debug.Log (NewBehaviourScript.Instance.a1) ; 
+		Debug.Log (SingleTone.Instance.a1) ; 
 
 	}
 

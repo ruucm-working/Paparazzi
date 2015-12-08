@@ -30,6 +30,7 @@ public class ViewFinderAnimControl : MonoBehaviour {
 			anim.SetTrigger ("shot");
 //			view_finder.SetActive (true);
 
+//			Debug.Log (SingleTone.TakeShot[0]) ;
 		} 
 //
 //		else {
