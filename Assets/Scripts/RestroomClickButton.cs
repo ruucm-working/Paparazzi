@@ -6,33 +6,41 @@ public class RestroomClickButton : MonoBehaviour {
 	Animator anim;
 
 
-	public GameObject view_finder = null;
+//	public GameObject view_finder = null;
 
 
 	void Start()
 	{
 		anim = GameObject.Find ("run").GetComponent<Animator> ();
 
+		Debug.Log (NewBehaviourScript.Instance.a1) ; 
+
 	}
 
 	void Update()
 	{
-		Debug.Log ("update");
-		if (Input.GetMouseButtonDown (0)) {
-		
-		}
+//		Debug.Log ("update");
+//		if (Input.GetMouseButtonDown (0)) {
+//		
+//		}
 
 		if (Input.GetButtonDown ("Jump")) {
 			Debug.Log ("Enter Button");
 			
 			
 			anim.SetTrigger("shot");
+//			anim.SetBool ("isShoting", true);
+//			view_finder.SetActive (true);
 
-			view_finder.SetActive (true);
+		} 
+//
+//		else {
+//			view_finder.SetActive (false);
+//			anim.SetBool("isShoting",false);
+//
+//		}
 
-
-
-		}
+		
 	}
 
 //
