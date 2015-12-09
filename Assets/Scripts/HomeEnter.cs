@@ -4,6 +4,6 @@ using System.Collections;
 public class HomeEnter : MonoBehaviour {
 
 	void OnMouseDown() {
-		Application.LoadLevel("HomeInside");
+		Application.LoadLevel("scene4_HomeInside");
 	}
 }

@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ToiletEnter_M : MonoBehaviour {
+public class ToiletEnter : MonoBehaviour {
 	
 	void OnMouseDown() {
-		Application.LoadLevel("toilet_inside_M");
+		Application.LoadLevel("scene3_toilet_inside");
 	}
 }

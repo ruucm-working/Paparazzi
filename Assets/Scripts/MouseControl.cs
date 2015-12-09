@@ -14,12 +14,12 @@ public class MouseControl : MonoBehaviour {
 	}
 	
 	void Update () {
-		if (Input.GetMouseButtonDown(0)) {
+//		if (Input.GetMouseButtonDown(0)) {
 			target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 			target.z = transform.position.z;
 
 			anim.SetBool("Move",true);
-		}
+//		}
 		Vector3 dest = target - transform.position;
 		if (dest.magnitude < dist) {
 			anim.SetBool("Move", false);

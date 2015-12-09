@@ -22,7 +22,7 @@ public class ViewFinderAnimControl : MonoBehaviour {
 //		
 //		}
 
-		if (Input.GetButtonDown ("Jump")) {
+		if (Input.GetMouseButtonDown(0)) {
 			Debug.Log ("Enter Button");
 			
 			

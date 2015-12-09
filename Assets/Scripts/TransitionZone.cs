@@ -11,7 +11,7 @@ public class TransitionZone : MonoBehaviour {
 //		gameManager = GameObject.Find("gameManager").GetComponent<GameManager> ();
 	}
 
-	void OnTriggerExit2D(Collider2D coll) {
+	void OnTriggerEnter2D(Collider2D coll) {
 			if(coll.gameObject.tag == "Player"){
 				Destroy (coll.gameObject);
 

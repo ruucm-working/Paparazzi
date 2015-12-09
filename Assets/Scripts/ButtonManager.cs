@@ -5,6 +5,7 @@ public class ButtonManager : MonoBehaviour {
 
 	
 	public GameObject enterBtn = null;
+	public GameObject enterBtn2 = null;
 	public GameObject friendBtn = null;
 	public GameObject exitBtn = null;
 	public GameObject shotBtn = null;
@@ -13,6 +14,8 @@ public class ButtonManager : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D coll) {
 		if(coll.tag == "EnterDoor")
 			enterBtn.SetActive (true);
+		if(coll.tag == "EnterDoor2")
+			enterBtn2.SetActive (true);
 		if (coll.tag == "Friend")
 			friendBtn.SetActive (true);
 		if(coll.tag == "ExitDoor")
@@ -23,6 +26,8 @@ public class ButtonManager : MonoBehaviour {
 	void OnTriggerExit2D(Collider2D coll) {
 		if(coll.tag == "EnterDoor")
 			enterBtn.SetActive (false);
+		if(coll.tag == "EnterDoor2")
+			enterBtn2.SetActive (false);
 		if (coll.tag == "Friend")
 			friendBtn.SetActive (false);
 		if(coll.tag == "ExitDoor")
