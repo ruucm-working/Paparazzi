@@ -50,6 +50,8 @@
      <Compile Include="Assets\Scripts\ButtonManager.cs" />
      <Compile Include="Assets\Scripts\CameraMove.cs" />
      <Compile Include="Assets\Scripts\CharacterJump.cs" />
+     <Compile Include="Assets\Scripts\ConversExit.cs" />
+     <Compile Include="Assets\Scripts\ConversationEnter.cs" />
      <Compile Include="Assets\Scripts\DataStatus.cs" />
      <Compile Include="Assets\Scripts\EndingScene.cs" />
      <Compile Include="Assets\Scripts\HomeEnter.cs" />
@@ -58,18 +60,26 @@
      <Compile Include="Assets\Scripts\MouseControl.cs" />
      <Compile Include="Assets\Scripts\MovingObject.cs" />
      <Compile Include="Assets\Scripts\RestroomClickButton.cs" />
+     <Compile Include="Assets\Scripts\SendReceiveAnim.cs" />
      <Compile Include="Assets\Scripts\SingleTone.cs" />
+     <Compile Include="Assets\Scripts\ThrowObject.cs" />
      <Compile Include="Assets\Scripts\ToiletEnter.cs" />
      <Compile Include="Assets\Scripts\ToiletEnter_M.cs" />
      <Compile Include="Assets\Scripts\ToiletExit.cs" />
      <Compile Include="Assets\Scripts\TransitionZone.cs" />
      <Compile Include="Assets\Scripts\UIControl.cs" />
      <Compile Include="Assets\Scripts\ViewFinderAnimControl.cs" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>

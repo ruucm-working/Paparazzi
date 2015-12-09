@@ -5,6 +5,6 @@ public class HomeExit : MonoBehaviour {
 
 	// Use this for initialization
 	void OnMouseDown() {
-		Application.LoadLevel("home_outside");
+		Application.LoadLevel("scene1_HomeOutside");
 	}
 }
